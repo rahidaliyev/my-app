@@ -4,12 +4,14 @@ import Title from './components/Title/Title';
 import Footer from './components/Footer/Footer';
 import Subscribe from './components/Main/Main';
 import Liked from './components/Extrus/Extrus'
-
+import UserLogin from './components/lastMain/NewMain';
 
 
 function App() {
   return (
     <>
+   
+     <UserLogin />
       <Liked />
       <Subscribe />
       <Title />
@@ -19,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

@@ -1,0 +1,19 @@
+.btnClass {
+    margin-top: 15px;
+  }
+  .container {
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    border: 5px solid yellow;
+    text-align: center;
+    background-color: rgb(131, 58, 224);
+    border-radius: 10px;
+  }
+  .container > h1 {
+    color: yellow;
+  }
+  .container label {
+    color: white;
+  }
+  
