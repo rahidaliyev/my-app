@@ -1,10 +1,13 @@
+body{
+  margin-top: 10%;
+  background-color: rgb(240, 240, 240);
+  font-family: Helvetica, Sans-Serif;
+}
 .btnClass {
     margin-top: 15px;
   }
   .container {
-   position: absolute;
-    left: 33.33%;
-    top: 20.33%;
+    margin: auto;
     height: 314.75px;
     width: 396px;
     border: 1px solid black;
@@ -21,7 +24,7 @@
   button{
     height: 48px;
     width: 364px;
-    background-color: yellow;
+    background-color: rgb(204, 204, 49);
     border: 0px solid yellow;
     border-radius: 10px;
   }
@@ -44,7 +47,7 @@ input::-webkit-input-placeholder {
     line-height: 3;
 }
 button:hover{
-  background-color: purple;
+  background-color: yellow;
   cursor: pointer;
 }
-  
+ 
