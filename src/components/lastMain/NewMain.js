@@ -7,16 +7,23 @@ class UserLogin extends Component {
       <div className="container">
         <h1>Registration</h1>
         <form>
-          <label htmlFor="fname">E-mail:</label>
+        
           <br />
-          <input type="text" id="fname" name="fname" />
+          <input
+           type="email" 
+           placeholder="Email or phone number"
+           name="fname" />
           <br />
-          <label htmlFor="lname">Password:</label>
+      
           <br />
-          <input type="password" id="lname" name="fname" />
+          <input 
+          type="password" 
+          placeholder="Password"
+          name="fname" />
           <br />
           <button className="btnClass" type="button">
-            Login
+          <p>Log In
+            </p>  
           </button>
         </form>
       </div>

@@ -2,10 +2,12 @@
     margin-top: 15px;
   }
   .container {
-    margin: auto;
-    height: 300px;
-    width: 300px;
-    border: 5px solid yellow;
+   position: absolute;
+    left: 33.33%;
+    top: 20.33%;
+    height: 314.75px;
+    width: 396px;
+    border: 1px solid black;
     text-align: center;
     background-color: rgb(131, 58, 224);
     border-radius: 10px;
@@ -16,4 +18,33 @@
   .container label {
     color: white;
   }
+  button{
+    height: 48px;
+    width: 364px;
+    background-color: yellow;
+    border: 0px solid yellow;
+    border-radius: 10px;
+  }
+  input{
+    width: 364px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+  }
+  button>p{
+    margin: auto;
+    font-size: large;
+  }
+  textarea:focus, input:focus{
+    outline: none;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+}
+button:hover{
+  background-color: purple;
+  cursor: pointer;
+}
   
