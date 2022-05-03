@@ -1,24 +1,30 @@
 import React, { Component } from "react";
 import "./NewMain.css";
-
+import { FaRegEyeSlash } from 'react-icons/fa';
 class UserLogin extends Component{
+  clickHandler1 = () => {
+    console.log("Yalniz .ru domenlərinə icazə verilir.");
+  };
+  clickHandler2 = () => {
+    console.log("Ən azi 8 simvol");
+  };
   constructor(){
     super();
     this.state={
-      showPassword: false
+      showPassword: false,
     }
   }
   render(){
-console.warn(this.state.showPassword);
+console.log(this.state.showPassword);
   
 
     return (
       <div className="container">
         <h1>Sign In</h1>
-        <form>
+  
         
           <br />
-          <input
+          <input onFocus={ this.clickHandler1}
            type="email" 
            placeholder="Email or phone number"
            name="fname" />
@@ -27,21 +33,22 @@ console.warn(this.state.showPassword);
           <br />
       
 <div className="passwordDiv">
-          <input 
-          type="password" 
+          <input onFocus={this.clickHandler2}
+          type={this.state.showPassword ? "text" : "password"}
           placeholder="Password"
           name="fname" />
-          <button id="hideShow"
-          onClick={()=>this.state({ showPassword: !this.state.showPassword})}
-           >Show
-           </button>
+         <div className="myHide">
+        <a onClick={()=>this.setState({ showPassword: !this.state.showPassword})} ><FaRegEyeSlash size={25} />
+          </a> 
+          </div>
+        
  </div>
          <br />
           <button className="btnClass" type="button">
           <p>Log In
             </p>  
           </button>
-        </form>
+       
       </div>
     );
   }

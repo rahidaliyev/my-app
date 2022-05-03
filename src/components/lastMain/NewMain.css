@@ -50,8 +50,12 @@ button:hover{
   background-color: yellow;
   cursor: pointer;
 }
- .passwordDiv{
-   display: flex;
- }
+a:hover{
+ cursor:pointer;
+}
+.myHide{
+  margin-top: -40px;
+  margin-right: -280px;
+}
 
  
