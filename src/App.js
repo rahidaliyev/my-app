@@ -4,7 +4,7 @@ import './App.css';
 // import Subscribe from './components/Main/Main';
 // import Liked from './components/Extrus/Extrus'
 import UserLogin from './components/lastMain/NewMain';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

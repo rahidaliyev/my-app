@@ -21,7 +21,7 @@ body{
   .container label {
     color: white;
   }
-  button{
+.btnClass{
     height: 48px;
     width: 364px;
     background-color: rgb(204, 204, 49);
@@ -50,4 +50,8 @@ button:hover{
   background-color: yellow;
   cursor: pointer;
 }
+ .passwordDiv{
+   display: flex;
+ }
+
  

@@ -25,20 +25,18 @@ console.warn(this.state.showPassword);
           <br />
       
           <br />
-          <div className="col-3">
-<div className="input-group mb-3 shadow border rounded">
+      
+<div className="passwordDiv">
           <input 
           type="password" 
           placeholder="Password"
           name="fname" />
-          <button
+          <button id="hideShow"
           onClick={()=>this.state({ showPassword: !this.state.showPassword})}
            >Show
            </button>
-</div>
-          </div>
-          
-          <br />
+ </div>
+         <br />
           <button className="btnClass" type="button">
           <p>Log In
             </p>  
